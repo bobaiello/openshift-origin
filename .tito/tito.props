@@ -1,6 +1,7 @@
 [buildconfig]
 builder = origin.builder.OriginBuilder
 tagger = origin.tagger.OriginTagger
+tag_format = "v{version}"
 forceversiontagger = origin.tagger.OriginForceVersionTagger
 changelog_do_not_remove_cherrypick = 0
 changelog_format = %s (%ae)
